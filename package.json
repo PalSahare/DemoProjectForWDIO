@@ -1,0 +1,31 @@
+{
+  "name": "wdio-cucumber-e2e-test",
+  "version": "1.0.0",
+  "description": "wdio e2e tests",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.ts"
+  },
+  "keywords": [
+    "wdio",
+    "cucumber",
+    "e2e",
+    "tests"
+  ],
+  "author": "Pallavi Sahare",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.38.0",
+    "@wdio/cli": "^8.38.0",
+    "@wdio/cucumber-framework": "^8.38.0",
+    "@wdio/local-runner": "^8.38.0",
+    "@wdio/spec-reporter": "^8.38.0",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "@types/chai": "^4.3.16",
+    "chai": "^5.1.1"
+  }
+}
