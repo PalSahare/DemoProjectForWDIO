@@ -1,8 +1,8 @@
 import type { Options } from '@wdio/types'
-//const expect = chai.expect;
+// const expect = chai.expect;
 
-// Example usage
-//expect(true).to.be.true;
+// // Example usage
+// expect(true).to.be.true;
 export const config: Options.Testrunner = {
     //
     // ====================
